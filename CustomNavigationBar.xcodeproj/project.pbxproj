@@ -12,6 +12,7 @@
 		0067EFBD1C5B358400CFBAD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0067EFBB1C5B358400CFBAD6 /* Main.storyboard */; };
 		0067EFBF1C5B358400CFBAD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0067EFBE1C5B358400CFBAD6 /* Assets.xcassets */; };
 		0067EFC21C5B358400CFBAD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0067EFC01C5B358400CFBAD6 /* LaunchScreen.storyboard */; };
+		00AAACC81C5C75A1003AF81C /* GradientHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AAACC71C5C75A1003AF81C /* GradientHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0067EFBE1C5B358400CFBAD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0067EFC11C5B358400CFBAD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0067EFC31C5B358400CFBAD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00AAACC71C5C75A1003AF81C /* GradientHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				0067EFB71C5B358400CFBAD6 /* AppDelegate.swift */,
 				0067EFB91C5B358400CFBAD6 /* ViewController.swift */,
 				0067EFBB1C5B358400CFBAD6 /* Main.storyboard */,
+				00AAACC71C5C75A1003AF81C /* GradientHeaderView.swift */,
 				0067EFBE1C5B358400CFBAD6 /* Assets.xcassets */,
 				0067EFC01C5B358400CFBAD6 /* LaunchScreen.storyboard */,
 				0067EFC31C5B358400CFBAD6 /* Info.plist */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00AAACC81C5C75A1003AF81C /* GradientHeaderView.swift in Sources */,
 				0067EFBA1C5B358400CFBAD6 /* ViewController.swift in Sources */,
 				0067EFB81C5B358400CFBAD6 /* AppDelegate.swift in Sources */,
 			);
@@ -284,6 +288,7 @@
 				0067EFC81C5B358400CFBAD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
